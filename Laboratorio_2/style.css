@@ -1,0 +1,54 @@
+main{
+    color: black;
+}
+
+#nombre{
+    text-align: center;
+    background-color: yellow;
+    font-size:xx-large;
+    font-family:'Courier New', Courier, monospace;
+    color: red;
+}
+
+address{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.warning{
+    text-align: center;
+    margin: 30px;
+}
+
+#titulo{
+    text-align: center;
+    font-style: italic;
+    font-size: x-large;
+}
+.subtitulos{
+    text-align: center;
+    font-size: x-large;
+    color: green;
+    background-color: aqua;
+    margin: 10 px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: black;
+}
+
+p{
+    font-size: larger;
+}
+
+a{
+    background-color: yellowgreen;
+}
+
+.puntos{
+    list-style-type:circle;
+}
+
+.numeros{
+    list-style-type: lower-greek;
+}
