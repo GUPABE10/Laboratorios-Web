@@ -167,12 +167,16 @@ body {
   }
 
   .icono{
+    display: none;
+  }
+  .menu{
     background-color: gray;
     color: white;
     text-align: right;
-  }
-  .menu{
-    display: none;
+    display: flex;
+    justify-content: end;
+    gap: 5%;
+    list-style-type: none;
   }
 
   .social{
