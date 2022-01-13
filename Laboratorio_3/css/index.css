@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+/*.navbar{
+  display: none;
+}*/
+
+
+@media (max-width: 767px) {
+  
+  h1{
+    color:red;
+    display: flex;
+    justify-content: center;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+
+  body{
+    border-style:solid;
+    border-width: 3px;
+    margin: 10px;
+  }
+
+  .product{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    text-align: center;
+    border-style:groove;
+  }
+
+  header,nav,main{
+    margin: 10px;
+  }
+
+  .icono{
+    background-color: gray;
+    color: white;
+    text-align: right;
+  }
+  .menu{
+    display: none;
+  }
+
+  .social{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social_icon{
+    list-style-type: none;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+  
+
+  header{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+  }
+
+  h1{
+    color:blue;
+  }
+
+  .logo{
+    margin-top: 15px;
+  }
+
+  body{
+    border-style:solid;
+    border-width: 0px;
+    margin: 10px;
+  }
+
+  .product{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    text-align: center;
+    border-style:groove;
+  }
+
+  header,nav,main{
+    margin: 10px;
+  }
+
+  .icono{
+    background-color: gray;
+    color: white;
+    text-align: right;
+  }
+  .menu{
+    display: none;
+  }
+
+  .social{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social_icon{
+    list-style-type: none;
+  }
+}
+
+@media (min-width: 1025px){
+  header{
+    display: flex;
+    justify-content: center;
+    gap:100px;
+  }
+
+  h1{
+    color:green;
+  }
+
+  .logo{
+    margin-top: 15px;
+  }
+
+  body{
+    border-style:solid;
+    border-width: 0px;
+    margin: 10px;
+  }
+
+  main{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .product{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    text-align: center;
+    border-style:groove;
+  }
+
+  header,nav,main{
+    margin: 10px;
+  }
+
+  .icono{
+    background-color: gray;
+    color: white;
+    text-align: right;
+  }
+  .menu{
+    display: none;
+  }
+
+  .social{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social_icon{
+    list-style-type: none;
+  }
+}
