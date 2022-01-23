@@ -63,7 +63,7 @@ $(document).ready(function() {
     })
 
     $("#animal-form").on("click","#add-animal", function(e){
-        alert($(this).val())
+        //alert($(this).val())
         e.preventDefault()
 
         let recentGifs = $(".SH")
